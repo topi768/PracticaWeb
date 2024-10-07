@@ -4,20 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>базовые</title>
-    <link rel="stylesheet" href="libs/font-awesome/fontawesome.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <!-- ico -->
     <link rel="apple-touch-icon" sizes="180x180" href="ico\apple-touch-icon.png">
     <link rel="icon" type="image\png" sizes="32x32" href="ico\favicon-32x32.png">
     <link rel="icon" type="image\png" sizes="16x16" href="ico\favicon-16x16.png">
     <link rel="manifest" href="ico\site.webmanifest">
     <!-- fontawesome -->
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
   </head>
-  <body id="body" class="lock">
-    <div id="preloaderOverlay" class="preloader--overlay">
-  <div class="preloader"></div>
-</div>
+  <body id="body" >
+
 <nav>
   <div class="nav--mobile" >
     <div class="nav__content" id="nav__content">
@@ -38,12 +34,11 @@
   </div>
 </nav>
 
-    <section class="content" >
+    <main class="content" >
       <article class="task">
         <div class="task__container">
           <div class="task__item">
             <h2>Задание 1</h2>
-            <small><a class="source"href="theoreticalMaterial.html#ЛинейныеУравнения">Линейные уравнения</a></small>
             <p class="task__text">Решите уравнение при всех значениях параметра а:</p>
             <p class="task__formula">$$(2a - 4)x = 3a + 1$$</p>
           </div>
@@ -76,6 +71,8 @@
               <p>$$Ответ: при \: a = 2 , x = \in \varnothing $$</p>
             </div>
             <a class="source" href="https://math100.ru/prof-ege_2022_17-1/">источник</a>
+            <small><a class="source"href="theoreticalMaterial.html#ЛинейныеУравнения">Линейные уравнения</a></small>
+
           </div>
         </div>
       </article>
@@ -83,7 +80,6 @@
         <div class="task__container">
           <div class="task__item">
             <h2>Задание 2</h2>
-            <small><a class="source"href="theoreticalMaterial.html#ЛинейныеУравнения">Линейные уравнения</a></small>
             <p class="task__text">Решите уравнение при всех значениях параметра а:</p>
             <p class="task__formula">$$(a^2 - 2a + 1)x = a^2 + 2a - 3$$</p>
           </div>
@@ -139,6 +135,8 @@
               $$ если \:a \neq 1, \: x =  \frac{(a - 1)}{(x + 3)} $$
             </div>
             <a class="source" href="https://math100.ru/prof-ege_2022_17-1/">источник</a>
+            <small><a class="source"href="theoreticalMaterial.html#ЛинейныеУравнения">Линейные уравнения</a></small>
+
           </div>
         </div>
       </article>
@@ -146,7 +144,6 @@
         <div class="task__container">
           <div class="task__item">
             <h2>Задание 3</h2>
-            <small><a class="source"href="theoreticalMaterial.html#ИсследованиеДискриминанта">Исследование дискриминанта</a></small>
             <p class="task__text">При каких значениях параметра а уравнение 2 различных решения?</p>
             <p class="task__formula">$$ x^2 -ax + 16 = 0 $$</p>
           </div>
@@ -186,6 +183,8 @@
               $$   \:  a \in (-\infty ; -8 ) \cup ( 8; +\infty)  $$
             </div>
             <a class="source" href="https://math100.ru/prof-ege_2022_17-2/">источник</a>
+            <small><a class="source"href="theoreticalMaterial.html#ИсследованиеДискриминанта">Исследование дискриминанта</a></small>
+
           </div>
         </div>
       </article>
@@ -195,7 +194,7 @@
   </div>
 </section>
 
-    </section>
+</main>
       <footer>
   <div class="footer__item">
     <h4>Разработка и дизайн сайта:</h4>
@@ -206,8 +205,8 @@
   </div>
 </footer>
 
-    <script src="js\script.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script src="js\script.js"></script>
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   </body>
 </html>

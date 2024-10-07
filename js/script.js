@@ -1,13 +1,13 @@
 
-document.body.onload = function () {
-  setTimeout(function() {
-    let preloaderOverlay = document.getElementById('preloaderOverlay');
-    if ( !preloaderOverlay.classList.contains('done') ) {
-      preloaderOverlay.classList.add('done');
-      document.getElementById("body").classList.remove('lock');
-    }
-  },300);
-}
+// document.body.onload = function () {
+//   setTimeout(function() {
+//     let preloaderOverlay = document.getElementById('preloaderOverlay');
+//     if ( !preloaderOverlay.classList.contains('done') ) {
+//       preloaderOverlay.classList.add('done');
+//       document.getElementById("body").classList.remove('lock');
+//     }
+//   },300);
+// }
 //
 function burger() {
   document.getElementById("menu-btn").classList.toggle('menu-btn_active');
@@ -36,7 +36,7 @@ for(let i = 0; i < input.length; i++) {
 //     }
 //   }
 // }
- hoverPage()
+//  hoverPage()
  //
  function formulaDerivationSolution() {
    containerWidth = document.querySelector(".task__container").offsetWidth - 0;
